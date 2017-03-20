@@ -1,0 +1,15 @@
+---
+# Delay between server restarts in seconds
+# Задержка перед рестартами сервера в секундах
+restart: 1800
+
+# Restart messages
+# Сообщения о рестарте
+restart_inMinutes: "Server will be restarted in {minutes} minutes"
+
+restart_60: "Server will be restarted in 1 minute"
+restart_30: "Server will be restarted in 30 seconds"
+restart_15: "Server will be restarted in 15 seconds"
+restart_5: "Server will be restarted in 5 seconds"
+restart_message: "Server is restarting NOW!"
+...
