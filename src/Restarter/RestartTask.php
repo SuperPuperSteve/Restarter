@@ -17,7 +17,7 @@ class RestartTask extends PluginTask {
 	}
 	
 	public function onRun($currentTick){
-		$this->getLogger()->info("секунд: ".++$this->seconds);
+		++$this->seconds;
 		$secondsLeft = ($this->restartSeconds - $this->seconds);
 		
 		//целая минута
